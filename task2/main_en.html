@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ENCS3320-Webserver</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <h1>Welcome to ENCS3320 - Computer Networks Webserver</h1>
+    </div>
+
+    <div class="team-member-box1">
+      <h2>Team Members</h2>
+
+      <div class="team-member-box">
+        <table>
+          <tr>
+            <!-- left cell -->
+            <td>
+              <img
+                src="Resources/Roaa.png"
+                alt="Roaa Pic"
+                class="circular-photo"
+              />
+            </td>
+            <!--right cell -->
+            <td>
+              <h3>Roaa Hamoudah ~ 1210738</h3>
+              <h3>Projects:</h3>
+              <ul>
+                <li>Nutrihealth Center DBMS (Database Course)</li>
+                <li>Gaza Electricity System (Data Structure Course)</li>
+                <li>Pizza Order System (Java Course)</li>
+              </ul>
+              <br />
+
+              <h3>Skills:</h3>
+              <ul>
+                <li>Programming Languages, Networking, Database Management.</li>
+              </ul>
+
+              <br />
+              <h3>Hobbies:</h3>
+              <ul>
+                <li>Gaming, Traveling, Photography.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="team-member-box">
+        <table>
+          <tr>
+            <!-- left cell -->
+            <td>
+              <img
+                src="Resources/Ata.png"
+                alt="Ata Pic"
+                class="circular-photo"
+              />
+            </td>
+            <!--right cell -->
+            <td>
+              <h3>Ata Musleh ~ 1211245</h3>
+              <h3>Projects:</h3>
+              <ul>
+                <li>Pac-Man Game (Java 2 Course)</li>
+                <li>Car Rental Web App (Web Course)</li>
+                <li>Dijkstra's Algorithm Visualization (Algorithms Course)</li>
+              </ul>
+              <br />
+
+              <h3>Skills:</h3>
+              <ul>
+                <li>Game Development, Network Security, Data Analysis.</li>
+              </ul>
+
+              <br />
+              <h3>Hobbies:</h3>
+              <ul>
+                <li>Gym, Playing Guitar, Reading.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="team-member-box">
+        <table>
+          <tr>
+            <!-- left cell -->
+            <td>
+              <img
+                src="Resources/Ameer.png"
+                alt="Ameer Pic"
+                class="circular-photo"
+              />
+            </td>
+            <!--right cell -->
+            <td>
+              <h3>Ameer Yasen ~ 1210187</h3>
+              <h3>Projects:</h3>
+              <ul>
+                <li>Pac-Man Game (Java 2 Course)</li>
+                <li>Car Rental Web App (Web Course)</li>
+                <li>Dijkstra's Algorithm Visualization (Algorithms Course)</li>
+              </ul>
+              <br />
+
+              <h3>Skills:</h3>
+              <ul>
+                <li>
+                  Mobile Development, Machine Learning/AI, Cloud Development.
+                </li>
+              </ul>
+
+              <br />
+              <h3>Hobbies:</h3>
+              <ul>
+                <li>Swimming, Hiking, Puzzle Solving.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>Understanding TCP and UDP</h2>
+
+      <h3>Overview:</h3>
+      <p>
+        <strong>TCP (Transmission Control Protocol)</strong> and
+        <strong>UDP (User Datagram Protocol)</strong>
+        are two fundamental communication protocols used for transmitting data
+        over networks. While they serve similar purposes, their approaches
+        differ significantly, catering to various needs of network
+        communication.
+      </p>
+      <br />
+      <br />
+      <h3>What is TCP?</h3>
+      <p>
+        TCP is a <strong>connection-oriented protocol</strong> designed for
+        reliable communication. It establishes a connection before transferring
+        data and ensures that all packets are delivered and in the correct
+        order.
+      </p>
+
+      <br />
+      <br />
+      <h3>What is UDP?</h3>
+      <p>
+        UDP is a <strong>connectionless protocol</strong> known for its speed.
+        Unlike TCP, it doesn't ensure the delivery or order of packets, making
+        it ideal for real-time communication.
+      </p>
+
+      <br />
+      <br />
+      <h3>Here are the main differences between TCP and UDP:</h3>
+      <table class="special-table">
+        <thead>
+          <tr>
+            <th>Factor</th>
+            <th>TCP</th>
+            <th>UDP</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Connection type</td>
+            <td>Requires an established connection before transmitting data</td>
+            <td>No connection is needed to start and end a data transfer</td>
+          </tr>
+
+          <tr>
+            <td>Data sequence</td>
+            <td>Can sequence data (send in a specific order)</td>
+            <td>Cannot sequence or arrange data</td>
+          </tr>
+
+          <tr>
+            <td>Data retransmission</td>
+            <td>Can retransmit data if packets fail to arrive</td>
+            <td>No data retransmitting. Lost data can’t be retrieved</td>
+          </tr>
+
+          <tr>
+            <td>Delivery</td>
+            <td>Delivery is guaranteed</td>
+            <td>Delivery is not guaranteed</td>
+          </tr>
+
+          <tr>
+            <td>Check for errors</td>
+            <td>
+              Thorough error-checking guarantees data arrives in its intended
+              state
+            </td>
+            <td>
+              Minimal error-checking covers the basics but may not prevent all
+              errors
+            </td>
+          </tr>
+
+          <tr>
+            <td>Broadcasting</td>
+            <td>Not supported</td>
+            <td>Supported</td>
+          </tr>
+
+          <tr>
+            <td>Speed</td>
+            <td>Slow, but complete data delivery</td>
+            <td>Fast, but at risk of incomplete data delivery</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br />
+      <br />
+      <h3>Applications of TCP and UDP:</h3>
+      <ol>
+        <li><strong>Applications of TCP:</strong></li>
+        <br />
+        <ul>
+          <li>Email Communication (<em>HTTP/HTTPS</em>).</li>
+          <li>File Transfers.</li>
+          <li>Web Browsing.</li>
+        </ul>
+        <br />
+        <div class="image-container">
+          <img
+            src="Resources/EmailCommunication.jpg"
+            alt="Email Communication"
+          />
+          <img src="Resources/FileTransfer.jpg" alt="File Transfer" />
+          <img src="Resources/WebBrowsing.jpg" alt="Web Browsing" />
+        </div>
+
+        <br />
+        <br />
+        <li><strong>Applications of UDP:</strong></li>
+        <br />
+        <ul>
+          <li>Video Streaming.</li>
+          <li>Online Gaming.</li>
+          <li>VoIP (<em>Voice over IP</em>).</li>
+        </ul>
+        <br />
+        <div class="image-container">
+          <img src="Resources/VideoStreaming.jpg" alt="Video Streaming" />
+          <img src="Resources/OnlineGaming.jpg" alt="Online Gaming" />
+          <img src="Resources/VoIP.jpg" alt="VoIP" />
+        </div>
+      </ol>
+    </div>
+
+    <div class="box">
+      <a href="supporting_material_en.html" class="link"
+        >Click here to view the supporting material English version.</a
+      >
+    </div>
+
+    <div class="box">
+      <h3>Links to external resources:</h3>
+      <ol>
+        <li>
+          <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" class="link"
+            >The textbook website.</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://ritaj.birzeit.edu/" class="link">Ritaj website.</a>
+        </li>
+      </ol>
+    </div>
+    <br />
+  </body>
+</html>

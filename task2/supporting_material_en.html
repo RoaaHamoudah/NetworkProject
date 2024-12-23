@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box center">
+      <h1>Supporting Materials For Network Course</h1>
+      <p class="box1">
+        Looking for search material for ENCS3320 course?<br />
+        Enter the name of the image or the video in the box <br />
+        If the file does not exists you will be redirected to another url
+      </p>
+      <!-- can be changed to the ip address of the server you want to send the request to -->
+      <form action="http://localhost:5698/search" method="GET" target="_blank">
+        <input type="text" name="myRequest" class="fit" required /><br />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </body>
+</html>
