@@ -1,0 +1,154 @@
+body {
+  font-family: Arial;
+  background-color: #27374d;
+  margin-left: 100px;
+}
+
+html,
+body {
+  height: 100%;
+  align-items: center;
+}
+
+p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 90%;
+  padding: 20px;
+  background-color: #526d82;
+  border-radius: 4px;
+  margin: 1rem auto;
+  color: #ffffff;
+}
+
+.box1 {
+  width: 90%;
+  padding: 20px;
+  background-color: #27374d;
+  border-radius: 4px;
+  margin: 1rem auto;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+ul {
+  color: #ffffff;
+}
+
+.circular-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.white-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.image-box {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.team-member-box {
+  margin: 1rem auto;
+  background-color: #27374d;
+  width: 82%;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.team-member-box1 {
+  margin: 1rem auto;
+  background-color: #526d82;
+  width: 82%;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 1rem;
+}
+
+.special-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.special-table th {
+  background-color: #27374d;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.special-table td {
+  padding: 10px;
+  border: 2px solid #ffffff;
+  text-align: center;
+}
+
+.special-table td:first-child {
+  background-color: #27374d;
+}
+
+.image-container img {
+  width: 25%;
+  height: 150px;
+  margin: 0 30px;
+}
+
+.link {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.h3-ar {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.fit {
+  min-width: 180px;
+}

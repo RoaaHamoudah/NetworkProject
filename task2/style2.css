@@ -1,0 +1,9 @@
+h1{
+    margin: 20px 0px;
+}
+
+form{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
