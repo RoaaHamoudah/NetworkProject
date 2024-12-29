@@ -15,6 +15,11 @@ Network Project for ENCS3320 Birzeit university
 - Serve English and Arabic web pages with team details, project content, and links.
      - main_en.html: English version of the main web page.
      - main_ar.html: Arabic version of the main web page.
+     - supporting_material_en.html: English version of the supporting materials page.
+     - supporting_material_ar.html: Arabic version of the supporting materials page.
+       
+    
+    
     
 
  
