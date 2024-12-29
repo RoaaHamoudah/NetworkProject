@@ -8,5 +8,7 @@ Network Project for ENCS3320 Birzeit university
 - Analyze a DNS query using Wireshark to understand packet details.
 <br>
 
+#### 2) Task 2: Web Server
+
  
  
