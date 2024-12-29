@@ -11,6 +11,8 @@ Network Project for ENCS3320 Birzeit university
 #### 2) Task 2: Web Server
 - Build a simple web server using socket programming with TCP.
      - server.py: Python script implementing the web server using TCP.
+- Serve English and Arabic web pages with team details, project content, and links.
+    
 
  
  
