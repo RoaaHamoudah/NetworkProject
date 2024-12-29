@@ -19,7 +19,7 @@ Network Project for ENCS3320 Birzeit university
      - supporting_material_ar.html: Arabic version of the supporting materials page.
        
 - Handle client requests and provide appropriate responses, including error pages.
-     - notFound.html: Error page for page not found.
+     - notFound.html: Error page for page not found. 
 <br>
 
 #### 3) Task 3: UDP Trivia Game
