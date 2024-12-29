@@ -22,13 +22,11 @@ Network Project for ENCS3320 Birzeit university
      - notFound.html: Error page for page not found.
 <br>
 
-
 #### 3) Task 3: UDP Trivia Game
 - Develop a multiplayer trivia game using UDP sockets.
 - The server manages rounds, broadcasts questions, and tracks scores.
 - Clients connect, submit answers, and receive updates in real time.
 <br>
-
 
 #### 4) Project Report
 - Document the tasks, including theory, implementation, results, and challenges.
