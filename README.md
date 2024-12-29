@@ -13,6 +13,7 @@ Network Project for ENCS3320 Birzeit university
      - server.py: Python script implementing the web server using TCP.
        
 - Serve English and Arabic web pages with team details, project content, and links.
+     - main_en.html: English version of the main web page.
     
 
  
